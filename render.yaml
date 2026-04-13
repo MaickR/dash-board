@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: dash-board
+    runtime: node
+    plan: free
+    region: ohio
+    branch: main
+    buildCommand: corepack enable && corepack pnpm install --frozen-lockfile && corepack pnpm build
+    startCommand: corepack pnpm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NODE_ENV
+        value: production
+      - key: MANUS_RUNTIME
+        value: false
+      - key: MANUS_DEBUG_COLLECTOR
+        value: false
+      - key: ALLOW_LOCAL_FALLBACK
+        value: true
+      - key: JWT_SECRET
+        generateValue: true

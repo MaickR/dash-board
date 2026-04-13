@@ -11,7 +11,7 @@ export type TrpcContext = {
 
 function shouldUseDevelopmentAuthFallback() {
   return (
-    process.env.NODE_ENV === "development" &&
+    (process.env.NODE_ENV === "development" || ENV.allowLocalFallback) &&
     (!ENV.oAuthServerUrl || !ENV.appId || !ENV.cookieSecret)
   );
 }
@@ -23,7 +23,7 @@ function createDevelopmentUser(): User {
     id: 0,
     openId: "local-dev-user",
     name: "Desarrollo Local",
-    email: "local@dashboard.dev",
+    email: ENV.allowLocalFallback ? "demo@dashboard.local" : "local@dashboard.dev",
     loginMethod: "development",
     role: "admin",
     createdAt: now,

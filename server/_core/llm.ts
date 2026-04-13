@@ -214,7 +214,7 @@ const resolveApiUrl = () =>
     ? `${ENV.forgeApiUrl.replace(/\/$/, "")}/v1/chat/completions`
     : "https://forge.manus.im/v1/chat/completions";
 
-const shouldUseLocalFallback = () => !ENV.forgeApiKey && !ENV.isProduction;
+const shouldUseLocalFallback = () => !ENV.forgeApiKey && (!ENV.isProduction || ENV.allowLocalFallback);
 
 const extractText = (content: MessageContent | MessageContent[]) =>
   ensureArray(content)

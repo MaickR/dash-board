@@ -50,7 +50,7 @@ let _dbInitFailed = false;
 let _dbUrl: string | null = null;
 
 const DB_UNAVAILABLE_ERROR = "DB not available";
-const USE_LOCAL_STORE = !ENV.databaseUrl && !ENV.isProduction;
+const USE_LOCAL_STORE = !ENV.databaseUrl && (!ENV.isProduction || ENV.allowLocalFallback);
 
 type Database = NonNullable<Awaited<ReturnType<typeof getDb>>>;
 
