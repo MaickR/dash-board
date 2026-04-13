@@ -29,7 +29,10 @@ const GET_USER_INFO_PATH = `/webdev.v1.WebDevAuthPublicService/GetUserInfo`;
 const GET_USER_INFO_WITH_JWT_PATH = `/webdev.v1.WebDevAuthPublicService/GetUserInfoWithJwt`;
 
 function shouldSuppressOAuthWarnings() {
-  return process.env.NODE_ENV === "development" && !ENV.oAuthServerUrl;
+  return (
+    ((process.env.NODE_ENV === "development") || ENV.allowLocalFallback) &&
+    !ENV.oAuthServerUrl
+  );
 }
 
 class OAuthService {
