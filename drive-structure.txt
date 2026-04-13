@@ -1,0 +1,199 @@
+# Terminal Full Output
+# Terminal: default
+# Command: for fid in 1q_u1YSt6b2j-cgJw1QibLG_WBJsnbDmY 1Zx10kK7tObM6bb7yX3o0FS11asi_n33d 1p15ASgfrSLMlIj-4k_nSFGVvp_9LqJAo; do echo "=== Folder $fid ===" && gws drive files list --params "{\"q\": \"'$fid' in parents\", \"fields\": \"files(id,name,mimeType,size,createdTime,webViewLink)\", \"pageSize\": 100}" --format json 2>&1 | head -80; done
+# PID: 41135
+# Timestamp: 2026-03-30_10-12-38.620576
+# Original Length: 7912 characters
+# ----------------------------------------
+
+=== Folder 1q_u1YSt6b2j-cgJw1QibLG_WBJsnbDmY ===
+{
+  "files": [
+    {
+      "createdTime": "2026-03-29T18:06:49.954Z",
+      "id": "1F5nXXJhAFzvJEhSdxTo4_hn8lUWmWKS1",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "TASKELET",
+      "webViewLink": "https://drive.google.com/drive/folders/1F5nXXJhAFzvJEhSdxTo4_hn8lUWmWKS1"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:49.525Z",
+      "id": "1ZyNP0uvmcnITL5xsIEM3zRxdP1jL5U_k",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Reuniones Semanales",
+      "webViewLink": "https://drive.google.com/drive/folders/1ZyNP0uvmcnITL5xsIEM3zRxdP1jL5U_k"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:49.108Z",
+      "id": "11xtNR1qrPf8C9jCPA74SilatWz2vFKYs",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "REUNIONES MARZO",
+      "webViewLink": "https://drive.google.com/drive/folders/11xtNR1qrPf8C9jCPA74SilatWz2vFKYs"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:48.695Z",
+      "id": "13XUDRN-WUUPnwmw6vEo99gF4KcuZr_rO",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Reuniones de ventas",
+      "webViewLink": "https://drive.google.com/drive/folders/13XUDRN-WUUPnwmw6vEo99gF4KcuZr_rO"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:48.221Z",
+      "id": "1pGq3Uwr1oirzxOoAliMF7cNu2eOQdCeK",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Reuniones de compras",
+      "webViewLink": "https://drive.google.com/drive/folders/1pGq3Uwr1oirzxOoAliMF7cNu2eOQdCeK"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:47.656Z",
+      "id": "1M6dAas3ds19ELTI-zc335t5IzeS8Rcq7",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Read AI Notes",
+      "webViewLink": "https://drive.google.com/drive/folders/1M6dAas3ds19ELTI-zc335t5IzeS8Rcq7"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:47.161Z",
+      "id": "1N6qzropn1f2aY-qTGOc6PUoVbCZpDf1b",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Plaud.ai (sisacarii7) hasta 28-11-25",
+      "webViewLink": "https://drive.google.com/drive/folders/1N6qzropn1f2aY-qTGOc6PUoVbCZpDf1b"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:46.542Z",
+      "id": "12i4jSIeJE4Q8QcybUyHrbhczXyWOMRxr",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "PLAUD",
+      "webViewLink": "https://drive.google.com/drive/folders/12i4jSIeJE4Q8QcybUyHrbhczXyWOMRxr"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:46.056Z",
+      "id": "1_zyfyvHARnARb_n38mwdPtWSRlNuusFJ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Otras",
+      "webViewLink": "https://drive.google.com/drive/folders/1_zyfyvHARnARb_n38mwdPtWSRlNuusFJ"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:45.533Z",
+      "id": "1s2TWMqBvkAps4-fbougLpDVEyO4cO2nY",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Meet Recordings",
+      "webViewLink": "https://drive.google.com/drive/folders/1s2TWMqBvkAps4-fbougLpDVEyO4cO2nY"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:45.112Z",
+      "id": "1E2UsQLzdSVlOV3bMmqSeksRjBxuKldrW",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Marketing",
+      "webViewLink": "https://drive.google.com/drive/folders/1E2UsQLzdSVlOV3bMmqSeksRjBxuKldrW"
+    },
+    {
+=== Folder 1Zx10kK7tObM6bb7yX3o0FS11asi_n33d ===
+{
+  "files": [
+    {
+      "createdTime": "2026-03-29T18:06:40.563Z",
+      "id": "1OKpT4yNEISN0ylbhMT5vOd8nFZwNOtR9",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Whiteboards",
+      "webViewLink": "https://drive.google.com/drive/folders/1OKpT4yNEISN0ylbhMT5vOd8nFZwNOtR9"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:40.000Z",
+      "id": "1D2srtUFvMgxpmXk2ehbefAxEVDW34IuM",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Videos",
+      "webViewLink": "https://drive.google.com/drive/folders/1D2srtUFvMgxpmXk2ehbefAxEVDW34IuM"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:39.256Z",
+      "id": "1IFMvju2ZZ3PWsApMLWzcFisrJqP-FT3V",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Microsoft Teams Archivos de chat",
+      "webViewLink": "https://drive.google.com/drive/folders/1IFMvju2ZZ3PWsApMLWzcFisrJqP-FT3V"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:38.822Z",
+      "id": "1GvxzttXl0K-7xnoS7hQgugA4sVap90nZ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Grabaciones",
+      "webViewLink": "https://drive.google.com/drive/folders/1GvxzttXl0K-7xnoS7hQgugA4sVap90nZ"
+    }
+  ]
+}
+=== Folder 1p15ASgfrSLMlIj-4k_nSFGVvp_9LqJAo ===
+{
+  "files": [
+    {
+      "createdTime": "2026-03-29T18:06:39.903Z",
+      "id": "17Y6b1_yuK6dz9Z_hWoVmTzhzDOJdnmrd",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "03-24_Reunión_Estrategia_de_Sistemas_de_RRHH_y_Gestión_de_Datos-BULLETS_TAREAS.docx",
+      "size": "22797",
+      "webViewLink": "https://docs.google.com/document/d/17Y6b1_yuK6dz9Z_hWoVmTzhzDOJdnmrd/edit?usp=drivesdk&ouid=101731266407235319948&rtpof=true&sd=true"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:39.471Z",
+      "id": "17Xjr5JPC07xRQoUQOAs2f_0eY7qLI9nP",
+      "mimeType": "application/pdf",
+      "name": "01-22_Proceso_Fotografía_de_Productos_para_Catálogo_y_Sistema-Resumen.pdf",
+      "size": "66221",
+      "webViewLink": "https://drive.google.com/file/d/17Xjr5JPC07xRQoUQOAs2f_0eY7qLI9nP/view?usp=drivesdk"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:38.340Z",
+      "id": "1jPh5HxHgYt4QqoEmcUXSPB3Hw3hAG4EJ",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Talento humano",
+      "webViewLink": "https://drive.google.com/drive/folders/1jPh5HxHgYt4QqoEmcUXSPB3Hw3hAG4EJ"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:37.883Z",
+      "id": "1EVcJuViJ20bEZ3wydocrsWJeOgpVLLuL",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Servicios generales",
+      "webViewLink": "https://drive.google.com/drive/folders/1EVcJuViJ20bEZ3wydocrsWJeOgpVLLuL"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:37.429Z",
+      "id": "1mnB1Z698tfTTLKI2v-OKvTzY4QLiqnOE",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Procesos y Mejora continua",
+      "webViewLink": "https://drive.google.com/drive/folders/1mnB1Z698tfTTLKI2v-OKvTzY4QLiqnOE"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:37.015Z",
+      "id": "1DSzjzvsTY9S_ABEqiO9WWyOu-B8EsidS",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Marketing y desarollo comercial",
+      "webViewLink": "https://drive.google.com/drive/folders/1DSzjzvsTY9S_ABEqiO9WWyOu-B8EsidS"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:36.537Z",
+      "id": "1WwB6RxZuI37yz5jJe67y2TxgkcII6PTr",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Legal",
+      "webViewLink": "https://drive.google.com/drive/folders/1WwB6RxZuI37yz5jJe67y2TxgkcII6PTr"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:36.064Z",
+      "id": "1xE1zog3MpcmsTC_JlNrD424Qe5c8QZ93",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Desarollo y tecnología",
+      "webViewLink": "https://drive.google.com/drive/folders/1xE1zog3MpcmsTC_JlNrD424Qe5c8QZ93"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:35.604Z",
+      "id": "1GH8qX2ztogpxTMhQRTV8HIl6cZVgfOZ1",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Compras e importaciones",
+      "webViewLink": "https://drive.google.com/drive/folders/1GH8qX2ztogpxTMhQRTV8HIl6cZVgfOZ1"
+    },
+    {
+      "createdTime": "2026-03-29T18:06:35.024Z",
+      "id": "1n2uWI5SgJNtFqezUhy4st2u-qCTKed4A",
+      "mimeType": "application/vnd.google-apps.folder",
+      "name": "Almacén y operaciones",
+      "webViewLink": "https://drive.google.com/drive/folders/1n2uWI5SgJNtFqezUhy4st2u-qCTKed4A"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Screenshot 2 review: Dashboard shows 7 sidebar items including Resumen Ejecutivo. Export PDF button visible next to Send button. No errors. All compiles correctly.

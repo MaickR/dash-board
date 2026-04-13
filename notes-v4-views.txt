@@ -1,0 +1,8 @@
+Phase 4 views status:
+- View selector visible: Lista (active), Kanban, Calendario, Timeline tabs
+- No TypeScript errors
+- List view with pagination working
+- Calendar view component created
+- Kanban inline view in Dashboard created
+- Timeline redirects to Gantt module
+- Next: implement automation, templates, workload, KPIs, PWA

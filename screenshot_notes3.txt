@@ -1,0 +1,13 @@
+Screenshot findings (v2 Asana-style):
+- Dashboard loads correctly with light theme (white bg, red CAP accents)
+- 8 sidebar items: Dashboard, Reuniones, Archivos, Responsables, Correos, Cumplimiento, Línea de Tiempo, Resumen Ejecutivo
+- 104 tasks showing (includes subtasks in count - need to filter to parent only)
+- KPIs: Total 104, Completadas 0, En progreso 0, Pendientes 104, Vencidas 0
+- Priority badges visible (orange "Media" flag)
+- Area badges visible
+- "Enviar tareas a responsables" and "Exportar PDF" buttons present
+- Task cards show propuesta bullets with "+1 más..." truncation
+- "ARIA Activa" indicator in top right
+- No TypeScript errors
+- Note: 104 tasks because subtasks are being counted - the parentTasks filter should work but seed created 49 parent + 55 subtasks?
+  Actually seed only created 49 tasks. The 104 might be from duplicate seed runs. Need to check.

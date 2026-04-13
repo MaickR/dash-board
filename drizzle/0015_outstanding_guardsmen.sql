@@ -1,0 +1,1 @@
+ALTER TABLE `archivos` ADD `tipo` varchar(50) DEFAULT 'documento';

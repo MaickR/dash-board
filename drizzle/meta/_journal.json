@@ -1,0 +1,118 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1774833755584,
+      "tag": "0000_pale_captain_midlands",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1774833833032,
+      "tag": "0001_glamorous_barracuda",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1774837301621,
+      "tag": "0002_moaning_gideon",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1774841640545,
+      "tag": "0003_broad_champions",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1774871808668,
+      "tag": "0004_typical_nuke",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1774875409369,
+      "tag": "0005_keen_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1774879077459,
+      "tag": "0006_living_fantastic_four",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1774879498580,
+      "tag": "0007_third_nighthawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1774909202087,
+      "tag": "0008_red_madelyne_pryor",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1774909535835,
+      "tag": "0009_moaning_eddie_brock",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1774909677171,
+      "tag": "0010_quick_quasimodo",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1774926918337,
+      "tag": "0011_fast_morph",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "5",
+      "when": 1774960714551,
+      "tag": "0012_nosy_leo",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "5",
+      "when": 1774965059289,
+      "tag": "0013_melted_spyke",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "5",
+      "when": 1775003892986,
+      "tag": "0014_condemned_bloodstorm",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "5",
+      "when": 1775021234676,
+      "tag": "0015_outstanding_guardsmen",
+      "breakpoints": true
+    }
+  ]
+}

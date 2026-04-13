@@ -1,0 +1,1 @@
+ALTER TABLE `departamento_historial` ADD `motivoCambio` text;

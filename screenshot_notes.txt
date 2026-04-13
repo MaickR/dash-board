@@ -1,0 +1,10 @@
+Screenshot review 2026-03-30:
+- Dashboard renders correctly with light theme (white bg)
+- Sidebar: ARIA logo + 5 nav items (Dashboard, Reuniones, Archivos, Responsables, Correos, Cumplimiento)
+- KPIs: Total 49, Completadas 0, En progreso 0, Pendientes 49, Vencidas 0
+- Search bar + area filter + status filter working
+- "Enviar tareas a responsables" button visible
+- Task cards show: title, area badge, responsable, date, propuesta bullets, status dropdown, note button
+- ARIA Activa indicator top-right
+- Date shown: Lunes 30 De Marzo De 2026
+- No visible errors
